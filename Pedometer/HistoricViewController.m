@@ -55,7 +55,10 @@
         
         // reflect this fact on our label too
         self.startDateLabel.text = [self turnDateIntoString:_startDate];
+//        NSLog(@"%@", today);
+//        NSLog(@"%@", yesterday);
     }
+    
     return _startDate;
 }
 
@@ -93,7 +96,7 @@
     NSDateComponents *components = [[NSDateComponents alloc]init];
     components.hour = -3;
     NSDate *threeHoursAgo = [gregorian dateByAddingComponents:components toDate:now options:0];
-    
+    //NSLog(@"%d@", components.hour);
     // display results
     [self.pedometer queryPedometerDataFromDate:threeHoursAgo toDate:now withHandler:^(CMPedometerData * _Nullable pedometerData, NSError * _Nullable error) {
         

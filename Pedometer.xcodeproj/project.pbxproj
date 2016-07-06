@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D26281701BE200A500162BFE /* Pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26281701BE200A500162BFE /* Pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Pedometer.app; path = "/Users/HJ_Joo/Downloads/Pedometer-master 2/build/Debug-iphoneos/Pedometer.app"; sourceTree = "<absolute>"; };
 		D26281741BE200A500162BFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D26281761BE200A500162BFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D26281771BE200A500162BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		D262817F1BE200A500162BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26281821BE200A500162BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D26281841BE200A500162BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D26281891BE200A500162BFE /* PedometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26281891BE200A500162BFE /* PedometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PedometerTests.xctest; path = "/Users/HJ_Joo/Downloads/Pedometer-master 2/build/Debug-iphoneos/PedometerTests.xctest"; sourceTree = "<absolute>"; };
 		D262818D1BE200A500162BFE /* PedometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PedometerTests.m; sourceTree = "<group>"; };
 		D262818F1BE200A500162BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D26281941BE200A500162BFE /* PedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26281941BE200A500162BFE /* PedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PedometerUITests.xctest; path = "/Users/HJ_Joo/Downloads/Pedometer-master 2/build/Debug-iphoneos/PedometerUITests.xctest"; sourceTree = "<absolute>"; };
 		D26281981BE200A500162BFE /* PedometerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PedometerUITests.m; sourceTree = "<group>"; };
 		D262819A1BE200A500162BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F20DEF1BE5108600A84B4E /* HistoricViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricViewController.h; sourceTree = "<group>"; };
@@ -90,18 +90,7 @@
 				D26281721BE200A500162BFE /* Pedometer */,
 				D262818C1BE200A500162BFE /* PedometerTests */,
 				D26281971BE200A500162BFE /* PedometerUITests */,
-				D26281711BE200A500162BFE /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		D26281711BE200A500162BFE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D26281701BE200A500162BFE /* Pedometer.app */,
-				D26281891BE200A500162BFE /* PedometerTests.xctest */,
-				D26281941BE200A500162BFE /* PedometerUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D26281721BE200A500162BFE /* Pedometer */ = {
@@ -217,7 +206,7 @@
 				TargetAttributes = {
 					D262816F1BE200A500162BFE = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = F34HMY85N9;
+						DevelopmentTeam = 3A74H29MK2;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -243,7 +232,7 @@
 				Base,
 			);
 			mainGroup = D26281671BE200A500162BFE;
-			productRefGroup = D26281711BE200A500162BFE /* Products */;
+			productRefGroup = D26281671BE200A500162BFE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -435,7 +424,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pedometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.versluis.Pedometer;
+				PRODUCT_BUNDLE_IDENTIFIER = dbfjbnfiqnof;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -449,7 +438,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pedometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.versluis.Pedometer;
+				PRODUCT_BUNDLE_IDENTIFIER = dbfjbnfiqnof;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

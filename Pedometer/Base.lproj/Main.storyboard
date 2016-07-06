@@ -140,54 +140,54 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ybf-lv-Hdj">
-                                <rect key="frame" x="215" y="184" width="171" height="230"/>
+                                <rect key="frame" x="163" y="185" width="275" height="230"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMZ-No-YWv">
-                                        <rect key="frame" x="0.0" y="0.0" width="171" height="42"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Start Date"/>
+                                        <state key="normal" title="시작"/>
                                         <connections>
                                             <action selector="startDateEntered:" destination="5ax-sN-BZd" eventType="touchUpInside" id="OSi-Oi-2gz"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="we need a start date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWi-aq-1HO">
-                                        <rect key="frame" x="0.0" y="42" width="171" height="21"/>
+                                        <rect key="frame" x="0.0" y="42" width="275" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4B6-V3-soA">
-                                        <rect key="frame" x="0.0" y="63" width="171" height="42"/>
+                                        <rect key="frame" x="0.0" y="63" width="275" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="End Date"/>
+                                        <state key="normal" title="끝"/>
                                         <connections>
                                             <action selector="endDateEnterted:" destination="5ax-sN-BZd" eventType="touchUpInside" id="5pF-Mc-EkM"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="we need an end date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDw-wj-3Iv">
-                                        <rect key="frame" x="0.0" y="105" width="171" height="21"/>
+                                        <rect key="frame" x="0.0" y="105" width="275" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="----------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1B-FU-Qew">
-                                        <rect key="frame" x="0.0" y="125" width="171" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1B-FU-Qew">
+                                        <rect key="frame" x="0.0" y="125" width="275" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqm-xR-8zg">
-                                        <rect key="frame" x="0.0" y="146" width="171" height="42"/>
+                                        <rect key="frame" x="0.0" y="146" width="275" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Last 3 Hours"/>
+                                        <state key="normal" title="지난 3시간동안의 기록"/>
                                         <connections>
                                             <action selector="lastThreeHours:" destination="5ax-sN-BZd" eventType="touchUpInside" id="bjJ-WO-b0R"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayU-MV-37B">
-                                        <rect key="frame" x="0.0" y="188" width="171" height="42"/>
+                                        <rect key="frame" x="0.0" y="188" width="275" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="All Steps Today"/>
+                                        <state key="normal" title="오늘의 기록"/>
                                         <connections>
                                             <action selector="allStepsToday:" destination="5ax-sN-BZd" eventType="touchUpInside" id="aRH-gB-nVK"/>
                                         </connections>
@@ -232,7 +232,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BkY-Nd-fWf">
                                 <rect key="frame" x="140" y="192" width="320" height="216"/>
                                 <subviews>
-                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="10" translatesAutoresizingMaskIntoConstraints="NO" id="xsY-L8-xvh">
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="xsY-L8-xvh">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
                                         <date key="date" timeIntervalSinceReferenceDate="468000905.92976898">
                                             <!--2015-10-31 16:15:05 +0000-->
